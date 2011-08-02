@@ -5,51 +5,6 @@ http://www.freecsstemplates.org
 Released for free under a Creative Commons Attribution 2.5 License
 */
 
-#logo a#portal-logo {
-    margin-top: 157px;
-}
-
-#portal-personaltools a{
-	color:black !important;
-}
-#portal-searchbox {
-    margin: 2px 6px 0 0;
-}
-
-/* Light green */
-#content a:link,
-dl.portlet a:link{
-    color: #4B8749;
-}
-#content a:visited,
-dl.portlet a:visited,
-a:link,
-a:visited{
-    color: #99bc98;
-}
-
-/* Dark grey bg, white color*/
-dl.portlet dt,
-div.portletAssignments div.portletHeader,
-div.managePortletsLink,
-a.managePortletsFallback{
-	background-color:#3b3b3b;
-	color: #FFF;
-}
-
-div.managePortletsLink a{
-    color: #FFF;
-}
-
-#content fieldset {
-    border-color: #4B8749;
-}
-
-.searchSection label{ color: #FFF; }
-.searchSection label:hover { color: #AAA; }
-
-/*****************************************************/
-
 body {
 	margin: 0;
 	padding: 0;
@@ -63,15 +18,15 @@ h1, h2, h3 {
 	margin: 0;
 	text-transform: uppercase;
 	font-weight: normal;
-	color: #42423E;
+	color: #4B8749;
 }
 
-/*h1 { font-size: 44px; }
+h1 { font-size: 44px; }
 
 h2 { font-size: 18px; }
 
 h3 { }
-*/
+
 p, ul, ol {
 	margin-top: 0;
 	line-height: 240%;
@@ -168,14 +123,14 @@ hr { display: none; }
 
 #menu a:hover { text-decoration: underline; }
 
-#menu .selected a {
+#menu .current_page_item a {
 	height: 20px;
 	background: #689970;
 	color: #FFFFFF;
 }
 
 /* Search */
-/*
+
 #search {
 	float: right;
 	width: 305px;
@@ -197,7 +152,7 @@ hr { display: none; }
 #search input {
 	float: left;
 	font: 12px Georgia, "Times New Roman", Times, serif;
-	border: 1px solid #66665E;
+	border: none;
 }
 
 #search-text {
@@ -213,7 +168,7 @@ hr { display: none; }
 	margin-left: 12px;
 	color: #39561D;
 }
-*/
+
 /* Page */
 
 #page {
@@ -260,9 +215,9 @@ hr { display: none; }
 
 /* Content */
 
-#wrapper-content{
+#content {
 	float: left;
-	width: 600px;
+	width: 570px;
 }
 
 /* Post */
@@ -326,10 +281,10 @@ hr { display: none; }
 	line-height: normal;
 }
 
-/*#sidebar li {
+#sidebar li {
 	margin-bottom: 30px;
 	padding: 0 0 10px 0px;
-}*/
+}
 
 #sidebar li ul {
 }

@@ -1,0 +1,102 @@
+#logo a#portal-logo {
+    margin-top: 157px;
+}
+
+#portal-personaltools a{
+    color:black !important;
+}
+#portal-searchbox {
+    margin: 2px 6px 0 0;
+}
+
+/* Light green */
+#content a:link,
+dl.portlet a:link{
+    color: #4B8749;
+}
+#content a:visited,
+dl.portlet a:visited,
+a:link,
+a:visited{
+    color: #99bc98;
+}
+
+/* Dark grey bg, white color*/
+dl.portlet dt,
+div.portletAssignments div.portletHeader,
+div.managePortletsLink,
+a.managePortletsFallback{
+    background-color:#3b3b3b;
+    color: #FFF;
+}
+
+div.managePortletsLink a{
+    color: #FFF;
+}
+
+#content fieldset {
+    border-color: #4B8749;
+}
+
+.searchSection label{ color: #FFF; }
+.searchSection label:hover { color: #AAA; }
+
+body {
+    color: #42423E;
+}
+ 
+#edit-bar{
+    float: left;
+    width: 570px;
+}
+
+#menu .selected a {
+    background: none repeat scroll 0 0 #689970;
+    color: #FFFFFF;
+    height: 20px;
+}
+
+h1 {
+    font-size: 22px;
+}
+
+h1,h2{
+    color: #42423E;
+}
+
+#searchGadget{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border-color: #CCCCCC #EEEEEE #EEEEEE #CCCCCC;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#searchGadget, .LSBox input.searchButton {
+    border: medium none;
+    font: 12px Georgia,"Times New Roman",Times,serif;
+	margin-left:3px;
+}
+#sidebar li {
+    margin-bottom: 0px;
+}
+
+dl.portlet dt a:link,
+dl.portlet dt a:visited,
+dl.portlet dt a:hover{
+    color:#fff;
+}
+
+.ploneCalendar .todaynoevent {
+    border: 2px solid #666;
+}
+
+#search {
+    float: none;
+    height: auto;
+    width: auto;
+}
+
+#search input {
+    float:none;
+    background-color:#ccc;
+}
